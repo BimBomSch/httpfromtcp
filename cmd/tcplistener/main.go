@@ -33,7 +33,6 @@ func main() {
 		}
 		fmt.Println("Connection to ", conn.RemoteAddr(), "closed")
 	}
-
 }
 
 func getLinesChannel(f io.ReadCloser) <-chan string {
